@@ -1,0 +1,89 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# Minecraft and Modpack runtime folders
+*.fabric/
+essential/
+screenshots/
+schematics/
+logs/
+crash-reports/
+saves/
+options.txt
+servers.dat
+launcher_profiles.json
+usercache.json
+webcache2/
+session.lock
+*.log
+
+# Additional Minecraft-specific files and folders
+advancements/
+defaultconfigs/
+knownkeys.txt
+realms_persistence.json
+patchouli_data.json
+minecraftinstance.json
+usercache.json
+usernamecache.json
+mods/*.disabled
+
+# Mod-specific data folders
+journeymap/
+craftpresence/
+config/jei/worldSettings.cfg
+XaeroWorldMap/
+XaeroWaypoints/
+replay_recordings/
+CustomSkinLoader/
+kubejs/exported/
+local/ftbchunks/
+local/ftbbackups/
+
+# Server specific (if you ever run a server)
+server.properties
+eula.txt
+banned-*.json
+ops.json
+whitelist.json
+world/
+world_nether/
+world_the_end/
+
+# CurseForge/launcher specific
+.curse/
+.curseclient/
+BotaniaVars.dat
+patchouli_books.json
+.mixin.out/
+client-state.json
+config.json
+
+# Backup files
+*.bak
+*.tmp
+*.old
+*.backup
+
+# JVM crash logs
+hs_err_pid*.log
+
+# Environment files
+.env
+*.env
+
+# Modloaders / runtime
+fabric-installer*.jar
+
+# Gradle (if you're developing mods too)
+.gradle/
+build/
+out/
+run/
