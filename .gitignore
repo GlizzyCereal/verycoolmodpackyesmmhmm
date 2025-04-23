@@ -46,6 +46,7 @@ CustomSkinLoader/
 kubejs/exported/
 local/ftbchunks/
 local/ftbbackups/
+modernfix/
 
 # Server specific (if you ever run a server)
 server.properties
